@@ -111,3 +111,6 @@ In a **binary PCD file**, the data is stored as raw binary bytes, so it looks so
 
 ```plaintext
 [4 bytes x-coordinate] [4 bytes y-coordinate] [4 bytes z-coordinate] [4 bytes intensity]
+
+
+![image](https://github.com/user-attachments/assets/3a028954-bdd5-4168-bda0-c2a145522774)
