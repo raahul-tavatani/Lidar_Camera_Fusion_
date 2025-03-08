@@ -106,6 +106,9 @@ In **PCD Binary format**, each point in the point cloud is represented by a seri
   - **y (float32)**: 4 bytes (representing the y-coordinate)
   - **z (float32)**: 4 bytes (representing the z-coordinate)
   - **intensity (float32)**: 4 bytes (optional, representing the reflectance intensity of the point)
+ 
+  - ![image](https://github.com/user-attachments/assets/f3664c99-c309-484b-a20c-81d67c71fdf1)
+
 
 In a **binary PCD file**, the data is stored as raw binary bytes, so it looks something like this (in a very simplified representation):
 
@@ -113,4 +116,3 @@ In a **binary PCD file**, the data is stored as raw binary bytes, so it looks so
 [4 bytes x-coordinate] [4 bytes y-coordinate] [4 bytes z-coordinate] [4 bytes intensity]
 
 
-![image](https://github.com/user-attachments/assets/3a028954-bdd5-4168-bda0-c2a145522774)
