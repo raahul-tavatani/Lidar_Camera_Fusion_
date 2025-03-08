@@ -32,10 +32,11 @@ Point cloud data can be stored in several different formats, depending on the so
 
 ### Formats used in Autonomous driving
 
-In autonomous driving, LiDAR (Light Detection and Ranging) point cloud data is widely used, and the most common formats for storing LiDAR point cloud data are LAS and LAZ (for compressed data). These formats are popular because they are specifically designed for storing 3D point cloud data collected by LiDAR sensors, which are crucial for creating detailed, accurate maps of the vehicle's surroundings.
+In autonomous driving, LiDAR (Light Detection and Ranging) point cloud data is widely used, and the most common formats for storing LiDAR point cloud data are **LAS** and **LAZ** (for compressed data). These formats are popular because they are specifically designed for storing 3D point cloud data collected by LiDAR sensors, which are crucial for creating detailed, accurate maps of the vehicle's surroundings.
 
-Reasons for Wide Use in Autonomous Driving:
-Precision and Accuracy: LiDAR provides highly accurate 3D spatial data, essential for understanding the environment, detecting obstacles, and creating detailed maps of road features, objects, and terrain.
-Real-time Processing: The LAS and LAZ formats are optimized for fast processing, which is vital in autonomous driving for real-time decision-making.
-Standardization: LAS is a standardized format, ensuring compatibility across different LiDAR sensors and software platforms used in autonomous driving systems.
-Point Density: LiDAR sensors generate a large number of points with high precision, allowing the vehicle to detect objects with great detail, even in low visibility conditions (e.g., at night or in fog).
+### Reasons for Wide Use in Autonomous Driving:
+- **Precision and Accuracy**: LiDAR provides highly accurate 3D spatial data, essential for understanding the environment, detecting obstacles, and creating detailed maps of road features, objects, and terrain.
+- **Real-time Processing**: The **LAS** and **LAZ** formats are optimized for fast processing, which is vital in autonomous driving for real-time decision-making.
+- **Standardization**: **LAS** is a standardized format, ensuring compatibility across different LiDAR sensors and software platforms used in autonomous driving systems.
+- **Point Density**: LiDAR sensors generate a large number of points with high precision, allowing the vehicle to detect objects with great detail, even in low visibility conditions (e.g., at night or in fog).
+
