@@ -19,10 +19,11 @@ This is the process behind capturing a 3D point in the world, and converting it 
 As you see, there is an intermediate step called the camera coordinates.
 
 In reality, what we're doing is:
-Convert the point from the world to the camera coordinates using EXTRINSIC parameters
-Convert the point from the camera to the pixel coordinates using INTRINSIC parameters.
+1) Convert the point from the world to the camera coordinates using EXTRINSIC parameters
+2) Convert the point from the camera to the pixel coordinates using INTRINSIC parameters.
 
 **What are extrinsic and intrinsic parameters?**
+
 Extrinsic parameters are rotation and translation matrices used to convert something from the world frame to the camera frame.
 
 Intrinsic parameters are the internal camera parameters, such as the focal length, to convert that information into a pixel.
