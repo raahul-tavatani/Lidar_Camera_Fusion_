@@ -3,8 +3,9 @@
 Think Autonomous Course on Lidar Camera Fusion
 
 
-camera vs Lidar pros/ Cons
+### Camera vs Lidar vs Lidarpros/ Cons
 
-![image](https://github.com/user-attachments/assets/dd0150c9-a648-4390-9e3f-ad790e872ac4)
+![image](https://github.com/user-attachments/assets/20f9e46b-2751-46db-9b9b-00f3e21d7a97)
+
 
 
