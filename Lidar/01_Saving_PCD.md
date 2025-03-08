@@ -107,7 +107,15 @@ In **PCD Binary format**, each point in the point cloud is represented by a seri
   - **z (float32)**: 4 bytes (representing the z-coordinate)
   - **intensity (float32)**: 4 bytes (optional, representing the reflectance intensity of the point)
  
-  - ![image](https://github.com/user-attachments/assets/f3664c99-c309-484b-a20c-81d67c71fdf1)
+  | **Field Type**      | **Description**                                           | **Fields Included**                           |
+|---------------------|-----------------------------------------------------------|----------------------------------------------|
+| **xyz**             | Basic 3D point coordinates.                               | `x`, `y`, `z`                                |
+| **xyzi**            | 3D coordinates + intensity value.                         | `x`, `y`, `z`, `i` (intensity)               |
+| **xyzRGB**          | 3D coordinates + RGB color values.                        | `x`, `y`, `z`, `r`, `g`, `b` (color)         |
+| **xyzRGBA**         | 3D coordinates + RGBA color values.                       | `x`, `y`, `z`, `r`, `g`, `b`, `a` (alpha)    |
+| **Normal, Curvature**| 3D coordinates + normal vector + curvature value.         | `x`, `y`, `z`, `nx`, `ny`, `nz`, `curvature` |
+| **PointNormal**     | 3D coordinates + normal vector + curvature value.         | `x`, `y`, `z`, `nx`, `ny`, `nz`, `curvature` |
+
 
 
 In a **binary PCD file**, the data is stored as raw binary bytes, so it looks something like this (in a very simplified representation):
