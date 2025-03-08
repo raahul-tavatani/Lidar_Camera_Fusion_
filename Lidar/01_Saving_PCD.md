@@ -106,7 +106,7 @@ In **PCD Binary format**, each point in the point cloud is represented by a seri
   - **y (float32)**: 4 bytes (representing the y-coordinate)
   - **z (float32)**: 4 bytes (representing the z-coordinate)
   - **intensity (float32)**: 4 bytes (optional, representing the reflectance intensity of the point)
-  - 
+  - Custom PCD looks as below
  
 | **Field Type**      | **Description**                                           | **Fields Included**                           |
 |---------------------|-----------------------------------------------------------|----------------------------------------------|
