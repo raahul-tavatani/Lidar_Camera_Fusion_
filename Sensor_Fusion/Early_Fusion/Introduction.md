@@ -60,6 +60,8 @@ All are homogenous matrices
 ### To convert the homogenous to euclidain
 
 ![image](https://github.com/user-attachments/assets/b981f1db-711a-4b4a-8860-78813b16e373)
+![image](https://github.com/user-attachments/assets/94155b4f-d424-4f66-9701-08124b4abdc2)
+
 
 
 
