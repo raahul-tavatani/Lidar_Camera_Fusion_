@@ -57,7 +57,7 @@ Y is PCD point mapped on to Pixel
 
 All are homogenous matrices
 
-to convert the homogenous to euclidain
+### To convert the homogenous to euclidain
 
 ![image](https://github.com/user-attachments/assets/b981f1db-711a-4b4a-8860-78813b16e373)
 
