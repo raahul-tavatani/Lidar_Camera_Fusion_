@@ -39,6 +39,27 @@ The LiDAR axis and Camera axis are on offset and also needs a rotation. So it ne
 
 ![image](https://github.com/user-attachments/assets/d0f17c8a-d323-45ae-aab9-087749604898)
 
+P = [ f_x   0    c_x   0 ]
+    [  0    f_y   c_y   0 ]
+    [  0     0     1    0 ]
+
+Ro = [ R_11   R_12   R_13 ]
+     [ R_21   R_22   R_23 ]
+     [ R_31   R_32   R_33 ]
+     
+R|t = [ R_11   R_12   R_13   t_1 ]
+      [ R_21   R_22   R_23   t_2 ]
+      [ R_31   R_32   R_33   t_3 ]
+
+X is point clould data point [ Xi Yi Zi 1]
+
+Y is PCD point mapped on to Pixel
+
+All are homogenous matrices
+
+to convert the homogenous to euclidain
+
+![image](https://github.com/user-attachments/assets/b981f1db-711a-4b4a-8860-78813b16e373)
 
 
 
